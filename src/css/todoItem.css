@@ -1,0 +1,16 @@
+.todoitems{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0px;
+}
+.todoitems-text{
+    margin: auto;
+    margin-top:30px;
+    background-color: bisque;
+    width:350px;
+    height:15px;
+    border-radius: 50px;
+    padding: 5px 15px;
+    font-size: 18px;
+}
