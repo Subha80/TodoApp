@@ -6,12 +6,13 @@ const TodoItem = (props) => {
 
    const delitem=(data)=>{
       let info=JSON.parse(localStorage.getItem("todos"));
-          info=info.filter((tasks)=>tasks !=data);
+          info=info.filter((tasks)=>tasks !==data);
           fn(info);
    }
    const edititem=(id)=>{
     input.current.value=list[id];
-    fn2(id);      
+    fn2(id);  
+    input.current.focus();
    }
 
   return (
